@@ -4,7 +4,7 @@ import {Component} from '@angular/core';  // imports the component object from a
 	selector: 'my-component',
 	template: `
 		<div>
-			<h4>{(title)}</h4>
+			<h4>{{title}}</h4>
 		</div>
 	`  // uses a template literal string to write inline HTML
 })
